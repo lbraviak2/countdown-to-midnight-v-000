@@ -3,9 +3,9 @@
 def countdown (number)
 
   while number > 0
-    return "#{number} SECOND(S)!"
+    return puts "#{number} SECOND(S)!"
     number = number - 1
   end
-  return "HAPPY NEW YEAR!"
+  return puts "HAPPY NEW YEAR!"
 
 end
